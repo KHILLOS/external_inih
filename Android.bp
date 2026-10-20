@@ -1,0 +1,36 @@
+package {
+    default_applicable_licenses: ["external_inih_license"],
+}
+
+license {
+    name: "external_inih_license",
+    license_kinds: ["SPDX-license-identifier-BSD-3-Clause"],
+    license_text: ["LICENSE.txt"],
+}
+
+cc_library {
+    name: "libinih",
+    srcs: ["ini.c"],
+    export_include_dirs: ["."],
+    vendor_available: true,
+}
+
+cc_library {
+    name: "libinih-cpp",
+    srcs: ["cpp/INIReader.cpp"],
+    export_include_dirs: [".", "cpp"],
+    shared_libs: ["libinih"],
+    vendor_available: true,
+}
+
+cc_library_headers {
+    name: "inih_headers",
+    export_include_dirs: ["."],
+    vendor_available: true,
+}
+
+cc_library_headers {
+    name: "libinih-cpp_headers",
+    export_include_dirs: [".", "cpp"],
+    vendor_available: true,
+}
