@@ -1,4 +1,7 @@
 /* inih -- tests for ini_parse_string() */
+/*
+ * SPDX-License-Identifier: LGPL-2.1-only
+ */
 
 #include <stdio.h>
 #include <stdlib.h>

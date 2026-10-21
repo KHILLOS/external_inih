@@ -8,29 +8,25 @@ license {
     license_text: ["LICENSE.txt"],
 }
 
-cc_library {
+cc_library_shared {
     name: "libinih",
     srcs: ["ini.c"],
     export_include_dirs: ["."],
-    vendor_available: true,
 }
 
-cc_library {
+cc_library_shared {
     name: "libinih-cpp",
     srcs: ["cpp/INIReader.cpp"],
     export_include_dirs: [".", "cpp"],
     shared_libs: ["libinih"],
-    vendor_available: true,
 }
 
 cc_library_headers {
     name: "inih_headers",
     export_include_dirs: ["."],
-    vendor_available: true,
 }
 
 cc_library_headers {
     name: "libinih-cpp_headers",
     export_include_dirs: [".", "cpp"],
-    vendor_available: true,
 }

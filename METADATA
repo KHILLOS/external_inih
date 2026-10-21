@@ -1,0 +1,21 @@
+# This project was upgraded with external_updater.
+# Usage: tools/external_updater/updater.sh update external/inih
+# For more info, check https://cs.android.com/android/platform/superproject/main/+/main:tools/external_updater/README.md
+
+name: "inih"
+description: "inih (INI Not Invented Here) is a simple .INI file parser written in C."
+third_party {
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2026
+    month: 10
+    day: 21
+  }
+  homepage: "https://github.com/benhoyt/inih"
+  identifier {
+    type: "Git"
+    value: "https://github.com/benhoyt/inih"
+    version: "26254ee"
+    closest_version: "r62"
+  }
+}
