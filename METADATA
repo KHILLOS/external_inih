@@ -9,13 +9,13 @@ third_party {
   last_upgrade_date {
     year: 2026
     month: 10
-    day: 21
+    day: 24
   }
   homepage: "https://github.com/benhoyt/inih"
   identifier {
     type: "Git"
     value: "https://github.com/benhoyt/inih"
-    version: "26254ee"
+    version: "2bbdec4"
     closest_version: "r62"
   }
 }
