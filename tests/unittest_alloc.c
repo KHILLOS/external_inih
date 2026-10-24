@@ -1,7 +1,4 @@
 /* inih -- tests with custom memory allocator */
-/*
- * SPDX-License-Identifier: LGPL-2.1-only
- */
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -9,9 +9,6 @@ See unittest.bat and unittest.sh for how to run this (with tcc and gcc,
 respectively).
 
 */
-/*
- * SPDX-License-Identifier: LGPL-2.1-only
- */
 
 #include <stdio.h>
 #include <stdlib.h>

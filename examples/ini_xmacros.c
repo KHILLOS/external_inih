@@ -1,7 +1,4 @@
 /* Parse a configuration file into a struct using X-Macros */
-/*
- * SPDX-License-Identifier: LGPL-2.1-only
- */
 
 #include <stdio.h>
 #include <string.h>

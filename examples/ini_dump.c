@@ -1,7 +1,4 @@
 /* ini.h example that simply dumps an INI file without comments */
-/*
- * SPDX-License-Identifier: LGPL-2.1-only
- */
 
 #include <stdio.h>
 #include <string.h>

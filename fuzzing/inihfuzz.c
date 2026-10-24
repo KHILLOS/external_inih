@@ -1,7 +1,4 @@
 /* This is a slightly tweaked copy of tests/unittest.c for fuzzing */
-/*
- * SPDX-License-Identifier: LGPL-2.1-only
- */
 
 #include <stdio.h>
 #include <stdlib.h>
